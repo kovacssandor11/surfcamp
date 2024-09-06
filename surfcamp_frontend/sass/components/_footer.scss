@@ -1,0 +1,45 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding:  6rem 4.8rem 4.5rem;
+
+  &--light {
+    color: white;
+  }
+
+  &_logo {
+    width: 8rem;
+    filter: invert(99%) sepia(94%) saturate(29%) hue-rotate(36deg) brightness(104%) contrast(100%);
+  }
+
+ &_nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 6rem;
+   margin-bottom: 3.5rem;
+ }
+
+  &_links {
+    display: flex;
+    list-style: none;
+
+    & li:not(:last-of-type) {
+      margin-right: 6.3rem;
+    }
+  }
+
+  &_policies {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_policies-nav {
+    display: flex;
+    list-style: none;
+
+    & li:not(:last-of-type) {
+      margin-right: 3.5rem;
+    }
+  }
+}
